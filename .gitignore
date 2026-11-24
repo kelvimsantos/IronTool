@@ -1,0 +1,4 @@
+# Build-time checkout of the upstream Barehands AGPL source.
+.build/
+__pycache__/
+*.py[cod]

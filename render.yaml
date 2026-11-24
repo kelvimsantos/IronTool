@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: irontool
+    runtime: python
+    plan: free
+    buildCommand: bash build.sh
+    startCommand: python app.py
+    healthCheckPath: /_health
+    autoDeploy: true
